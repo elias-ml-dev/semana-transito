@@ -1,0 +1,239 @@
+body {
+            background-color: rgb(117, 117, 117);
+            color: rgba(255, 255, 255, 0.767);
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+ 
+        /* CABEÇALHO */
+ 
+        .cabecalho {
+            width: 100%;
+            background-color: rgb(55, 55, 55);
+            padding: 25px 0;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+ 
+        .cabecalho h1 {
+            margin: 0;
+            color: white;
+            font-size: 42px;
+        }
+ 
+        .cabecalho h2 {
+            margin: 10px 0 0;
+            color: rgba(251, 255, 0, 0.712);
+            font-size: 30px;
+        }
+ 
+        /* TÍTULOS */
+ 
+        h1 {
+            color: rgba(251, 255, 0, 0.712);
+            font-size: 42px;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+ 
+        h2 {
+            color: rgba(251, 255, 0, 0.712);
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+ 
+        /* CONTAINER */
+ 
+        .container {
+            width: 90%;
+            max-width: 850px;
+            background-color: rgb(55, 55, 55);
+            padding: 40px;
+            border-radius: 15px;
+        }
+ 
+        /* TEXTOS */
+ 
+        p {
+            color: white;
+            font-size: 20px;
+            line-height: 1.7;
+            text-align: left;
+        }
+ 
+        /* FAIXA AMARELA */
+ 
+        .faixa {
+            width: 100%;
+            height: 6px;
+ 
+            background: repeating-linear-gradient(
+                to right,
+                #fffb00 0px,
+                #e7e6af 70px,
+                transparent 70px,
+                transparent 105px
+            );
+ 
+            margin-bottom: 25px;
+        }
+ 
+        /* MENU */
+ 
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+ 
+        .nav-container {
+            padding: 15px 25px;
+            border-radius: 10px;
+        }
+ 
+        .nav-container a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 18px;
+        }
+ 
+        /* CORES DO MENU */
+ 
+        .inicio {
+            background-color: red;
+        }
+ 
+        .seguranca {
+            background-color: red;
+        }
+ 
+        .referencias {
+            background-color: red;
+        }
+ 
+        /* PÁGINA INÍCIO */
+ 
+        .pagina-inicio .inicio {
+            background-color: green;
+        }
+ 
+        .pagina-inicio .seguranca {
+            background-color: rgb(255, 255, 0);
+        }
+ 
+        .pagina-inicio .referencias {
+            background-color: red;
+        }
+ 
+        /* PÁGINA SEGURANÇA */
+ 
+        .pagina-seguranca .inicio {
+            background-color: red;
+        }
+ 
+        .pagina-seguranca .seguranca {
+            background-color: green;
+        }
+ 
+        .pagina-seguranca .referencias {
+            background-color: yellow;
+        }
+ 
+        /* PÁGINA REFERÊNCIAS */
+ 
+        .pagina-referencias .inicio {
+            background-color: yellow;
+        }
+ 
+        .pagina-referencias .seguranca {
+            background-color: red;
+        }
+ 
+        .pagina-referencias .referencias {
+            background-color: green;
+        }
+ 
+        /* CARDS */
+ 
+        .icones {
+            width: 90%;
+            max-width: 1200px;
+ 
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+ 
+            margin-bottom: 40px;
+        }
+ 
+        .card-icone {
+            width: 190px;
+            min-height: 300px;
+ 
+            background-color: rgb(55, 55, 55);
+ 
+            border-radius: 15px;
+            padding: 20px;
+ 
+            text-align: center;
+ 
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+ 
+            transition: transform 0.3s, background-color 0.3s;
+        }
+ 
+        .card-icone:hover {
+            transform: translateY(-8px);
+            background-color: rgb(70, 70, 70);
+        }
+ 
+        .card-icone .emoji {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+ 
+        .card-icone h3 {
+            color: #fffb00;
+            font-size: 22px;
+            margin: 10px 0;
+        }
+ 
+        .card-icone p {
+            color: white;
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+        }
+ 
+        /* LINKS */
+ 
+        a {
+            color: #04c7f8;
+            font-size: 25px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+ 
+        a:hover {
+            color: #ffffff;
+        }
+ 
+        /* RODAPÉ */
+ 
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+ 
+            color: white;
+            text-align: center;
+            font-size: 16px;
+        }

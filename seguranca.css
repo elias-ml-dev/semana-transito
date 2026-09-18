@@ -1,0 +1,96 @@
+
+        body {
+            background-color: rgb(99, 99, 99);
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            text-align: center;
+            font-family: Verdana, Geneva, sans-serif;
+        }
+
+        h1{
+            color: rgba(255, 234, 0, 0.715);
+        }
+        h2{
+            color: rgba(255, 234, 0, 0.715);
+            background-color: rgb(55, 54, 54);
+            padding: 10px;
+            border-radius: 8px;
+        }
+        h3{
+            color: rgba(255, 234, 0, 0.715);
+        }
+
+        p, li {
+            color: white;
+        }
+        
+        nav  {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        }
+    
+        .nav-container {
+        padding: 15px 25px;
+        border-radius: 10px;
+        }
+    
+        .nav-container a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 18px;
+        }
+    
+        .inicio{
+            background-color:red;
+        }
+        .seguranca{
+            background-color: red;
+        }
+        .referencias{
+            background-color: red;
+        }
+    
+        /*}Pagina Segurança*/
+        .pagina-seguranca .inicio{
+            background-color: red;
+        }
+        .pagina-seguranca .seguranca{
+            background-color: green;
+        }
+        .pagina-seguranca .referencias{
+            background-color: yellow;
+        }
+      
+        ul {
+            text-align: left;
+            display: inline-block;
+            background-color: rgb(70, 70, 70);
+            padding: 25px 40px;
+            border-radius: 10px;
+            border: 1px solid white;
+            max-width: 800px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            color: white;
+            margin-bottom: 15px;
+            line-height: 1.6;
+            transition: transform 0.2s ease, color 0.2s ease; 
+        }
+
+        li:hover {
+            transform: scale(1.02); 
+            color: #add8e6;      
+        }
+
+        strong {
+            color: #ffcccc; 
+        }
+
+        p {
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+            line-height: 1.6;
+        }

@@ -1,0 +1,181 @@
+
+        body {
+            background-color: rgb(117, 117, 117);
+            color: rgba(255, 255, 255, 0.767);
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+ 
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+ 
+        .cabecalho {
+            width: 100%;
+            background-color: rgb(55, 55, 55);
+            padding: 25px 0;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+ 
+        .cabecalho h1 {
+            margin: 0;
+            color: rgb(251, 255, 0);
+            font-size: 42px;
+        }
+ 
+        .cabecalho h3 {
+            margin: 10px auto 0;
+            color: rgba(255, 255, 255, 0.712);
+            font-size: 24px;
+            max-width: 900px;
+            padding: 0 20px;
+        }
+ 
+        .container {
+            width: 90%;
+            max-width: 900px;
+ 
+            background-color: rgb(55, 55, 55);
+ 
+            padding: 30px;
+            margin-bottom: 30px;
+ 
+            border-radius: 15px;
+ 
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+ 
+        .container h1 {
+            color: rgba(251, 255, 0, 0.712);
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+ 
+        .container h2 {
+            color: rgba(251, 255, 0, 0.712);
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+ 
+        .card {
+            background-color: rgb(70, 70, 70);
+ 
+            padding: 25px;
+ 
+            border-radius: 12px;
+ 
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+        }
+ 
+ 
+        p {
+            color: white;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+ 
+        strong {
+            color: #fffb00;
+        }
+ 
+ 
+        .card a {
+            color: #04c7f8;
+            font-size: 18px;
+            text-decoration: none;
+        }
+ 
+        .card a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+ 
+ 
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+ 
+        .nav-container {
+            padding: 15px 25px;
+            border-radius: 10px;
+        }
+ 
+        .nav-container a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 18px;
+        }
+ 
+ 
+        .inicio {
+            background-color: red;
+        }
+ 
+        .seguranca {
+            background-color: red;
+        }
+ 
+        .referencias {
+            background-color: red;
+        }
+ 
+ 
+        .pagina-inicio .inicio {
+            background-color: green;
+        }
+ 
+        .pagina-inicio .seguranca {
+            background-color: rgb(255, 255, 0);
+        }
+ 
+        .pagina-inicio .referencias {
+            background-color: red;
+        }
+ 
+ 
+        .pagina-seguranca .inicio {
+            background-color: red;
+        }
+ 
+        .pagina-seguranca .seguranca {
+            background-color: green;
+        }
+ 
+        .pagina-seguranca .referencias {
+            background-color: yellow;
+        }
+ 
+ 
+        .pagina-referencias .inicio {
+            background-color: yellow;
+        }
+ 
+        .pagina-referencias .seguranca {
+            background-color: red;
+        }
+ 
+        .pagina-referencias .referencias {
+            background-color: green;
+        }
+   
+ 
+        footer {
+            margin-top: 20px;
+            padding: 20px;
+ 
+            color: white;
+            text-align: center;
+            font-size: 16px;
+        }
